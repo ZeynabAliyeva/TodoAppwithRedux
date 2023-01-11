@@ -1,20 +1,14 @@
-import { INPUT,DELETE, TOTAL} from "./add.todo";
+import {ADD,DELETE} from "./add.todo";
 
-export const input = () =>{
+export const add = (todo) =>{
     return {
-        type:INPUT,
-        payload:""
+        type:ADD,
+        payload:todo
     }
 }
-export const delete = () =>{
+export const dlt = (todo) =>{
     return {
         type:DELETE,
-        payload:""
-    }
-}
-export const total = () =>{
-    return {
-        type:TOTAL,
-        payload:""
+        payload:todo
     }
 }

@@ -1,3 +1,2 @@
-export const INPUT = "INPUT";
+export const ADD = "ADD";
 export const DELETE = "DELETE";
-export const TOTAL = "TOTAL"
